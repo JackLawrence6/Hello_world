@@ -1,0 +1,35 @@
+.btn-text{
+    display: inline-block;
+}
+
+.menu-bt-text{
+    display: inline-block;
+    padding: 0 2rem;
+    transition: 1s ease all
+}
+
+.menu-bt-text:hover{
+    color: #f53b57;
+}
+
+@media only screen and (max-width: 1024px) {
+    .btn-text{
+      font-size: 0.8rem;
+      display: inline;
+    }
+    .menu-bt-text{
+        display: inline;
+        padding: 0 0.4rem;
+    }
+}
+
+@media (max-width:1440px) {
+    .btn-text{
+        font-size: 0.9rem;
+        display: inline;
+    }
+    .menu-bt-text{
+        display: inline;
+        padding: 0 0.4rem;
+    }
+}

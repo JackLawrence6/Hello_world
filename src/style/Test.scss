@@ -1,0 +1,10 @@
+.test{
+  border: 1px solid cadetblue;
+  color: crimson;
+  transition: 400ms all ease;
+}
+
+.test:hover{
+  border: 1px solid crimson;
+  color: cadetblue;
+}

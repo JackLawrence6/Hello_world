@@ -1,0 +1,29 @@
+.ex-search{
+    overflow: hidden;
+    display: inline-block;
+    height: 80%;
+    width: 30%;
+    .sc-ipt{
+        border-radius: 2rem;
+        padding: 0 1rem;
+        height: 100%;
+        width: 70%;
+        outline: none;
+        border: none;
+    }
+    .search-icon{
+        position: relative;
+        top: 7%;
+        font-size: larger;
+        position: relative;
+        left: -6%;
+        display: inline-block;
+        height: 100%;
+        color: rgba($color: #3498db, $alpha: .3);
+        transition: 0.6s ease all;
+    }
+    .sc-ipt:focus + .search-icon{
+        color: rgba($color: #3498db, $alpha: 1);
+    }
+}
+
